@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/list_azienda" android:text="@+id/list_azienda" android:padding="10dp" android:textSize="16sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/list_nome" android:text="@+id/list_nome" android:layout_toRightOf="@+id/list_azienda" android:padding="10dp" android:textSize="16sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/list_denominazione" android:text="@+id/list_denominazione" android:layout_below="@+id/list_azienda" android:paddingLeft="10dp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/list_annata" android:text="@+id/list_annata" android:layout_toRightOf="@+id/list_denominazione" android:layout_alignTop="@+id/list_denominazione" android:paddingLeft="10dp"></TextView>
+
+</RelativeLayout>

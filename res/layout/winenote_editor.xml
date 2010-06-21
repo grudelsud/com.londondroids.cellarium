@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:stretchColumns="1">
+
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:text="@string/winenoteviewlabel_vino" android:id="@+id/winenote_vino_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/winenotetextview_vino" android:id="@+id/winenotetextview_vino" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineenoteditlabel_campione" android:id="@+id/winenote_campione_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/winenote_campione_edit" android:id="@+id/winenote_campione_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineenoteditlabel_tempvino" android:id="@+id/winenote_tempvino_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/winenote_tempvino_edit" android:id="@+id/winenote_tempvino_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineenoteditlabel_tempamb" android:id="@+id/winenote_tempamb_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/winenote_tempamb_edit" android:id="@+id/winenote_tempamb_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow05" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:text="@string/winenoteviewlabel_date" android:id="@+id/winenote_date_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/winenotetextview_date" android:id="@+id/winenotetextview_date" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow06" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:text="@string/winenoteviewlabel_time" android:id="@+id/winenote_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/winenotetextview_time" android:id="@+id/winenotetextview_time" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow07" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineenoteditlabel_luogo" android:id="@+id/winenote_luogo_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/winenote_luogo_edit" android:id="@+id/winenote_luogo_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow08" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/winenotespinnerlabel_tipo" android:id="@+id/wine_tipo_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Spinner android:id="@+id/winenote_tipo_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/winenotespinner_tipoprompt" android:entries="@array/winenotespinner_tipoentries"></Spinner>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow51" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:text="@string/winenoteviewlabel_score" android:id="@+id/winenote_score_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/winenote_score_view" android:id="@+id/winenotetextview_score" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow52" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineenoteditlabel_notes" android:id="@+id/winenote_notes_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/winenote_notes_edit" android:id="@+id/winenote_notes_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+
+</TableLayout>

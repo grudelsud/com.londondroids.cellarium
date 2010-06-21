@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Cellarium</string>
+	<string name="welcome">Welcome to Cellarium app for Android</string>
+
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+
+	<string name="tabTitleWines">Vini</string>
+	<string name="tabTitleCards">Schede di degustazione</string>
+
+	<string name="emptyField">vuoto</string>
+
+	<string name="menu_delete">Elimina</string>
+	<string name="menu_insert">Aggiungi elemento</string>
+	<string name="menu_edit">Modifica</string>
+	<string name="menu_cancel">Annulla</string>
+	<string name="menu_save">Salva</string>
+	<string name="menu_addnote">Recensisci</string>
+
+	<string name="wineeditlabel_nome">Nome</string>
+	<string name="wineeditlabel_azienda">Azienda</string>
+	<string name="wineeditlabel_cantina">Cantina</string>
+	<string name="wineeditlabel_comune">Comune</string>
+	<string name="wineeditlabel_categoria">Categoria</string>
+	<string name="wineeditspinner_categoriaprompt">Scegli una categoria</string>
+	<string-array name="wineeditspinner_categoriaentries">
+		<item>Rosso</item>
+		<item>Bianco</item>
+	</string-array>
+	<string name="wineeditlabel_denominazione">Denominazione</string>
+	<string name="wineeditlabel_annata">Annata</string>
+	<string name="wineeditlabel_gradazione">Gradazione</string>
+
+	<string name="winenote_default">AIS</string>
+	<string name="winenote_defaultscores">0,0,0,0,0,0,0,0,0,0</string>
+
+	<string name="winenoteviewlabel_vino">Vino</string>
+	<string name="wineenoteditlabel_campione">Campione N.</string>
+	<string name="wineenoteditlabel_tempvino">Temperatura vino</string>
+	<string name="wineenoteditlabel_tempamb">Temperatura ambiente</string>
+	<string name="winenoteviewlabel_date">Data</string>
+	<string name="winenoteviewlabel_time">Ora</string>
+	<string name="wineenoteditlabel_luogo">Luogo</string>
+	<string name="winenotespinnerlabel_tipo">Tipo</string>
+	<string name="winenotespinner_tipoprompt">Scegli un tipo di scheda</string>
+	<string-array name="winenotespinner_tipoentries">
+		<item>AIS</item>
+		<item>ONAV</item>
+	</string-array>
+	<string name="winenoteviewlabel_score">Punteggio</string>
+	<string name="wineenoteditlabel_notes">Osservazioni</string>
+
+	<!-- each item contains: type of widget, label, min, max, multiplier -->
+	<string-array name="giudizi_ais">
+		<item>separator,Visivo</item>
+		<item>ratingbar,Aspetto,1,5,1</item>
+		<item>ratingbar,Colore,1,5,2</item>
+		
+		<item>separator,Olfattivo</item>
+		<item>ratingbar,Intensità,1,5,1</item>
+		<item>ratingbar,Complessità,1,5,2</item>
+		<item>ratingbar,Qualità,1,5,3</item>
+		
+		<item>separator,Gusto-Olfattivo</item>
+		<item>ratingbar,Struttura,1,5,1</item>
+		<item>ratingbar,Equilibrio,1,5,1</item>
+		<item>ratingbar,Intensità,1,5,1</item>
+		<item>ratingbar,Persistenza,1,5,2</item>
+		<item>ratingbar,Qualità,1,5,3</item>
+
+		<item>separator,Generale</item>
+		<item>ratingbar,Armonia,1,5,3</item>
+	</string-array>
+	<string-array name="giudizi_onav">
+		<item>separator,Aspetto</item>
+		<item>ratingbar,Limpidezza,0,4,2</item>
+		<item>ratingbar,Colore,0,4,2</item>
+		
+		<item>separator,Bouquet</item>
+		<item>ratingbar,Finezza,0,4,2</item>
+		<item>ratingbar,Intensità,0,4,2</item>
+		<item>ratingbar,Frequenza,0,4,2</item>
+
+		<item>separator,Sapore</item>
+		<item>ratingbar,Corpo,0,4,2</item>
+		<item>ratingbar,Armonia,0,4,2</item>
+		<item>ratingbar,Intensità,0,4,2</item>
+
+		<item>separator,Generale</item>
+		<item>ratingbar,Sensazione finale,0,4,3</item>
+		<item>ratingbar,Tipicità,0,4,3</item>
+		<item>ratingbar,Impressione generale,0,4,3</item>
+	</string-array>
+
+</resources>

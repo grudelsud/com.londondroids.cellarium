@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:stretchColumns="1">
+
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:text="@string/wineeditlabel_nome" android:id="@+id/wine_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_name_edit" android:id="@+id/wine_name_edit" android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_azienda" android:id="@+id/wine_azienda_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_azienda_edit" android:id="@+id/wine_azienda_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_cantina" android:id="@+id/wine_cantina_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_cantina_edit" android:id="@+id/wine_cantina_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_comune" android:id="@+id/wine_comune_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_comune_edit" android:id="@+id/wine_comune_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow05" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_categoria" android:id="@+id/wine_cat_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Spinner android:id="@+id/wine_categoria_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/wineeditspinner_categoriaprompt" android:entries="@array/wineeditspinner_categoriaentries"></Spinner>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow06" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_denominazione" android:id="@+id/wine_denominazione_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_denominazione_edit" android:id="@+id/wine_denominazione_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow07" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_annata" android:id="@+id/wine_annata_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_annata_edit" android:id="@+id/wine_annata_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow08" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/wineeditlabel_gradazione" android:id="@+id/wine_gradazione_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@+id/wine_gradazione_edit" android:id="@+id/wine_gradazione_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</TableRow>
+
+</TableLayout>

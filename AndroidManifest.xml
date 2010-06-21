@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="uk.co.londondroids.cellarium" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".activities.Splash" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:label="@string/app_name" android:name=".activities.Main"></activity>
+		<activity android:name=".activities.WineList">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<action android:name="android.intent.action.PICK" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.dir/vnd.londondroids.wine" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.GET_CONTENT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.item/vnd.londondroids.wine" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".activities.WineEdit">
+			<!--
+				This filter says that we can view or edit the data of a single note
+			-->
+			<intent-filter android:label="@string/menu_edit">
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.item/vnd.londondroids.wine" />
+			</intent-filter>
+
+			<!--
+				This filter says that we can create a new note inside of a directory
+				of notes.
+			-->
+			<intent-filter>
+				<action android:name="android.intent.action.INSERT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.dir/vnd.londondroids.wine" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".activities.WineNoteList"></activity>
+
+		<activity android:name=".activities.WineNoteEdit"></activity>
+
+		<provider android:name=".providers.CellariumProvider"
+			android:authorities="uk.co.londondroids.cellarium.providers.cellariumprovider"></provider>
+
+	</application>
+
+	<uses-sdk android:minSdkVersion="7"></uses-sdk>
+</manifest> 
